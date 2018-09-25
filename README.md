@@ -2,7 +2,6 @@
 <br>git clone https://github.com/25one/yii2-base.git . (!ОБРАТИТЕ ВНИМАНИЕ НА « .» В КОНЦЕ) 
 <br>rm -rf .git
 <br>sudo chmod -R 777 web/assets
-<br>sudo chmod -R 777 web/img
 <br>sudo chmod 777 runtime
 <br><br>
 <b>2.В файле config/db.php откорректируйте следующие строки настроек доступа к mysql(host, dbname, username, password) на свои параметры подключения к mysql:</b>
