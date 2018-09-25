@@ -6,9 +6,14 @@
 <br>sudo chmod 777 runtime
 <br><br>
 <b>2.В файле config/db.php откорректируйте следующие строки настроек доступа к mysql(host, dbname, username, password) на свои параметры подключения к mysql:</b>
+    ...
     <br>'dsn' => 'mysql:host=localhost;dbname=yii2-basic',
     <br>'username' => 'root',
     <br>'password' => '', 
+    ...
 <br><br>
-<b>24.Запуск yii-приложения(как пример по-умолчанию):</b>
+<b>3.Запустите миграции для формирования таблиц бд(!обязательно после выполнения п.2, как пример по-умолчанию будет создана таблица start):</b> 
+php yii migrate    
+<br><br>
+<b>4.Запуск yii-приложения(как пример по-умолчанию запускается приложение start):</b>
 <br>/start 
