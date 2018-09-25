@@ -16,4 +16,4 @@
 <br>php yii migrate    
 <br><br>
 <b>4.Запуск yii-приложения(как пример по-умолчанию запускается приложение start):</b>
-<br>/start 
+<br>yii2-base/start 
