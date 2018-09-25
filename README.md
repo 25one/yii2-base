@@ -1,6 +1,7 @@
 <b>1.В каталоге, доступном из web (var/www или ваш вариант настройки), выполните следующие команды:</b>
-<br>git clone https://github.com/25one/yii2-base.git . (!ОБРАТИТЕ ВНИМАНИЕ НА « .» В КОНЦЕ) 
+<br>git clone https://github.com/25one/yii2-base.git 
 <br>rm -rf .git
+<br>cd yii2-base
 <br>sudo chmod -R 777 web/assets
 <br>sudo chmod 777 runtime
 <br><br>
@@ -9,5 +10,5 @@
     <br>'username' => 'root',
     <br>'password' => '', 
 <br>
-<br>3.Запуск yii-приложения:
+<br>3.Запуск yii-приложения(как пример по-умолчанию):
 <br>/start 
