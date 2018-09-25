@@ -9,6 +9,6 @@
     <br>'dsn' => 'mysql:host=localhost;dbname=yii2-basic',
     <br>'username' => 'root',
     <br>'password' => '', 
-<br>
-<br>3.Запуск yii-приложения(как пример по-умолчанию):
+<br><br>
+<b>24.Запуск yii-приложения(как пример по-умолчанию):</b>
 <br>/start 
